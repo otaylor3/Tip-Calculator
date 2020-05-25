@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="tip.css">
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<h1><b>TIP CALCULATOR APP</b></h1>
+	</div>
+	<div class="form">
+		<form>
+			<p>How Much was your bill?</p>
+			<p>$ <input id="bill" type="number" name="billing"></p>
+			<p>How was your service?</p>
+
+		
+		</form>
+		
+			<h2>Choose Below</h2>
+			     <form name ="form">
+				 <input type="radio" id="high" name="tip" value="high">
+				 <label>35% Service was Great</label><br>
+				 <input type="radio" id="mid" name="tip" value="mid">
+				 <label>20% Service was Good</label><br>
+				 <input type="radio" id="regular"  name="tip" value="regular">
+				 <label>10% Service was Okay</label><br>
+				 <input type="radio" id="low" name="tip" value="low">
+				 <label>5% The Worst</label><br>
+				 <input type="radio" id="other" name="tip" value="other">
+				 <label>Other Custom Tip Amount</label><input type="number" name="other" id="custom">
+		         </form>
+			
+			
+		
+	</div>
+      <p>How Many People are sharing the Bill</p>
+      <input type="number" name="guest" id="guest"><br>
+      <p>Your Total bill is : </p><br>
+      <h1 id="total"></h1>
+
+      
+</div>
+<button id="test">Get Tip Amount</button>	
+
+<script type="text/javascript" src="tip.js"></script>
+</body>
+</html>

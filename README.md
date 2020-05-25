@@ -1,1 +1,1 @@
-This will calculate the tip for a meal. On the custom tab, just type in the number, so 35% = 35, and also this will only show to 2 decimal places. 
+This is a tip calculator that you can use to calculate the tips for the meals you order 
